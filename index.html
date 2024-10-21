@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Pohaku Towing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #2e8b57;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        select {
+            font-size: 16px;
+            padding: 10px;
+            margin: 20px;
+            border: 2px solid #2e8b57;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #2e8b57;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3cb371;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Thank You for Choosing Pohaku Towing!</h1>
+        <p>We appreciate your business. If you had a great experience, please consider leaving us a 5-star review by clicking the button below.</p>
+
+        <label for="team">Who helped you today?</label>
+        <select id="team">
+            <optgroup label="Drivers">
+                <option value="Jake">Jake</option>
+                <option value="Todd">Todd</option>
+                <option value="Ramah">Ramah</option>
+                <option value="Kamu">Kamu</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Masa">Masa</option>
+            </optgroup>
+            <optgroup label="Dispatchers">
+                <option value="Cori">Cori</option>
+                <option value="Samson">Samson</option>
+            </optgroup>
+        </select>
+
+        <br>
+        <button onclick="window.open('https://www.google.com/search?client=safari&rls=en&q=Pohaku+Towing+LLC+google+reviews&ie=UTF-8&oe=UTF-8#', '_blank')">Leave a 5-Star Review</button>
+    </div>
+</body>
+</html>
